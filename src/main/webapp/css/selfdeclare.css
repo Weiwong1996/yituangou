@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+.span01 {
+	font-size: 50px;
+	color: red;
+	font-family: "blackadder itc";
+}
+
+.sDiv {
+	padding-top: 5px;
+	height: 60px;
+	width: auto;
+	padding-left: 300px;
+	position: relative;
+}
+
+.sDiv .sDiv1 {
+	float: left;
+}
+
+.sDiv .sDiv2 {
+	float: left;
+}
+
+.sDiv table tr {
+	height: 50px;
+	width: auto;
+}
+
+.sDiv table tr td p {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #D9230F;
+}
+
+.sDiv table tr td img {
+	width: auto;
+	height: 60px;
+}
+
+.tags {
+	position: absolute;
+	height: 28px;
+	right: 65px;
+	top: 6px;
+}
+
+.goods-screen-box {
+	position: relative;
+	margin-top: 10px;
+	z-index: 50;
+}
+
+.goods-screen-box .inner-width {
+	width: 1080px;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+.goods-screen-box ol li {
+	border-bottom: 1px #e5e5e5 solid;
+	padding: 8px 5px;
+	color: #000000;
+}
+
+li {
+	list-style-type: none;
+}
+
+.clearfix {
+	
+}
+
+.t0 {
+	top: 0px;
+	left: 0px;
+}
+
+.t1 {
+	float: left;
+}
+
+.t2 {
+	float: left;
+	margin-left: 80px;
+}
+
+.t2 a {
+	display: inline-block;
+	margin-left: 25px;
+	vertical-align: middle;
+	padding: 3px 5px;
+	margin-top: -2px;
+	border: 1px #f9f9fb solid;
+	font-size: 22px;
+	color: #737373;
+}
+
+.userlogin_icon {
+	margin-left: 1228px;
+	padding: 9px;
+}
+
+.search_goods {
+	margin-left: 750px;
+}
+
+input::-webkit-input-placeholder {
+	/* placeholder颜色  */
+	/*color: #aab2bd;*/
+	/* placeholder字体大小  */
+	font-size: 16px;
+	/* placeholder位置  */
+	/* text-align: right;*/
+}
+
+.goods_items .pic_goods {
+	width: 373px;
+}
+
+.goods_items .pic_goods img {
+	width: 350px;
+	height: 230px;
+}
+
+.goods_items {
+	float: left;
+	width: 374px;
+	height: 413px;
+	margin: 0px auto 3px auto;
+}
+
+.goods_items .h2 a {
+	color: #080808;
+	font-size: 23px;
+}
+
+.goods_items .goods_price .t1 {
+	display: inline-block;
+	color: #fff;
+	border-radius: 5px;
+	padding: 2px 5px;
+	border: 1px #d92830 solid;
+	color: #d92830;
+	margin-left: 20px;
+}
+
+.goods_items .goods_price .t2 {
+	margin-top: 5px;
+}
+
+.goods_items .goods_price .s1 {
+	font-size: 18px;
+	margin-left: 5px;
+	color: #999999;
+	text-decoration: line-through;
+}
+
+.s2 {
+	font-size: 20px;
+}
+
+.goods_items:hover {
+	border: 1px solid red;
+	background-color: #C9CBCE;
+}
